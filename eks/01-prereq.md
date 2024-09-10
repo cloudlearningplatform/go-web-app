@@ -19,12 +19,12 @@ prerequisites
      sudo mv /tmp/eksctl /usr/local/bin
 
 
-2. AWS CLI – A command line tool for working with AWS services, including Amazon EKS. For more information, see Installing, updating, and uninstalling the AWS CLI in the AWS Command Line Interface User Guide. After installing the AWS CLI, we recommend that you also configure it. For more information, see Quick configuration with aws configure in the AWS Command Line Interface User Guide.
+3. AWS CLI – A command line tool for working with AWS services, including Amazon EKS. For more information, see Installing, updating, and uninstalling the AWS CLI in the AWS Command Line Interface User Guide. After installing the AWS CLI, we recommend that you also configure it. For more information, see Quick configuration with aws configure in the AWS Command Line Interface User Guide.
 
-  For Linux / macOS To install the latest version of AWS CLI on Linux or macOS, run the following command:
+    For Linux / macOS To install the latest version of AWS CLI on Linux or macOS, run the following command:
  
-   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
-   unzip awscliv2.zip
+    unzip awscliv2.zip
 
-   sudo ./aws/install
+    sudo ./aws/install
