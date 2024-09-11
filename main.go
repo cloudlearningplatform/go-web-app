@@ -3,6 +3,7 @@ package main
 import (
 	"log"
 	"net/http"
+	"bytes"
 )
 
 func homePage(w http.ResponseWriter, r *http.Request) {
