@@ -1,19 +1,33 @@
 ## Install Nginx Ingress Controller on AWS
 Step 1: Deploy the below manifest
 
+```bash
+
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
 
-## Documentation 
-https://kubernetes.github.io/ingress-nginx/deploy/
+```bash
 
-https://github.com/kubernetes/ingress-nginx?tab=readme-ov-file
+## Documentation 
+   https://kubernetes.github.io/ingress-nginx/deploy/
+
+   https://github.com/kubernetes/ingress-nginx?tab=readme-ov-file
 
 # How works 
 
+```bash
+
 Ingress controller will look ingress service and create the lB
 
-ingress<-----Ingress Controller->LB
+ingress resourecs (File) <-----Ingress Controller->LB
+
+```bash
 
 ## Command 
 
+```bash
+
 kubectl get pods -n ingress-nginx
+kubectl get ing
+
+
+```bash
